@@ -1,0 +1,503 @@
+* {
+    margin:0;
+    padding:0;
+   box-sizing: border-box;
+}
+a {
+    text-decoration:none;
+}
+ul.ol {
+    list-style-type:none;
+}
+
+.container {
+    width:1200px;
+    margin:0 auto;
+}
+
+nav {
+    width:100%;
+    position:fixed;
+    top:0;
+    bottom:0;
+    z-index:99;
+}
+
+.navmain {
+    display:flex;
+}
+.logo {
+    width:200px;
+    padding-top:10px;
+}
+.logo img {
+    padding-left:200px;
+}
+.menu {
+    width:1000px;
+    text-align:right;
+ 
+}
+.menu ul li {
+    display:inline-block;
+   
+}
+.menu ul li a{
+    font-size:18px;
+    text-decoration:none;
+    padding-right:50px;
+    line-height:45px;
+    text-transform:uppercase;
+    color:#fff;
+    position:relative;
+    transition:all linear 2s;
+}
+ul li a:hover{
+color:hotpink;
+width:100%;
+height:1px;
+border-bottom: 2px solid rgb(190, 12, 167);
+transform:translate(50% -50%)
+}
+
+/*===========banner Part start here=================*/
+
+#banner {
+   width:100%:
+
+}
+.bg-image {
+    background-image: url("banner1.jpg");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bg-image img{
+margin-left:-100px;
+}
+.bg-text {
+    background-color: #f38181); /* Fallback color */
+    background-color: rgb(251, 227, 137)); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .story-text {
+      text-align:center;
+        ling-height:150px;
+        padding-top:100px;
+      
+  }
+
+  .story-text h1 {
+      font-size :38px;
+      font-family: 'Redressed', cursive;
+      padding-bottom: 50px;
+  }
+  .story-text p {
+      padding-bottom: 150px;
+     padding: 0 200px;
+      text-align:center;
+  }
+
+  .story-img {
+      display:flex;
+      justify-content:space-between;
+      position:relative;
+        padding-top:50px;
+  }
+
+  .story-img1 {
+    background-image: url(".jpg");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+
+  }
+  .banner-overlay {
+    background-color: rgb(243, 129, 129)); /* Fallback color */
+    background-color: #fbe389); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+
+  }
+
+/*===========banner Part end here=================*/
+/*===========Number Part start here=================*/
+#number {
+    padding: 100px 0;
+}
+.number-item {
+    background-color:steelblue;
+    width:100%;
+  
+    
+}
+.number-item h1 {
+    font-size:50px;
+    color:#fff;
+    width:240px;
+    text-align:center;
+    padding-top:30px;
+}
+.number-item p {
+    font-size:20px;
+    color:#fff;
+    width:240px;
+    text-align:center;
+    padding-bottom:30px;
+   
+    
+}
+.number-main  {
+    display:flex;
+    flex-direction:row;
+}
+.number-item1 h1 {
+    font-size:50px;
+    color:#fff;
+    width:240px;
+    text-align:center;
+    background-color:steelblue;
+    padding-top:30px;
+    
+}
+.number-item1 p {
+    font-size:20px;
+    color:#fff;
+    width:240px;
+    text-align:center;
+    background-color:steelblue;
+    padding-bottom:30px;
+    
+}
+.number-item2 h1 {
+    font-size:50px;
+    color:#fff;
+    width:240px;
+    text-align:center;
+    background-color:steelblue;
+    padding-top:30px;
+    
+}
+.number-item2 p {
+    font-size:20px;
+    color:#fff;
+    width:240px;
+    text-align:center;
+    background-color:steelblue;
+    padding-bottom:30px;
+    
+}
+.number-item3 h1 {
+    font-size:50px;
+    color:#fff;
+    width:240px;
+    text-align:center;
+    background-color:steelblue;
+    padding-top:30px;
+    
+}
+.number-item3 p {
+    font-size:20px;
+    color:#fff;
+    width:240px;
+    text-align:center;
+    background-color:steelblue;
+    padding-bottom:30px;
+    
+}
+.number-item4 h1 {
+    font-size:50px;
+    color:#fff;
+    width:240px;
+    text-align:center;
+    background-color:steelblue;
+    padding-top:30px;
+    
+}
+.number-item4 p {
+    font-size:20px;
+    color:#fff;
+    width:240px;
+    text-align:center;
+    background-color:steelblue;
+    padding-bottom:30px;
+    
+}
+
+/*===========Number Part end here=================*/
+
+
+/*===========Servise Part start here=================*/
+#servise {
+    text-align:center;
+    width:100%;
+}
+.head h6 {
+    font-size:12px;
+    
+}
+.head h1 {
+    font-size:22px;
+ 
+
+}
+.head p {
+    font-size:14px;
+    padding: 30px 150px;
+    
+}
+.servise-item    {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    
+}
+
+.servise-1 h4 i {
+   padding: 0 14px;
+   font-size:20px;
+}
+.servise-1 {
+    width:400px;
+    padding: 30px 0;
+    text-align:center;
+}
+.servise-2 h4 i {
+    padding: 0 14px;
+    font-size:20px;
+ }
+.servise-2 {
+    width:400px;
+    padding: 30px 0;
+    text-align:center;
+}
+.servise-3 h4 i {
+    padding: 0 14px;
+    font-size:20px;
+ }
+.servise-3 {
+    width:400px;
+    padding: 30px 0;
+    text-align:center;
+}
+
+
+.icon-main {
+    display:flex;
+    padding-top:150px;
+    padding-left:100px;
+}
+
+.icon {
+    width:100px;
+    border: 2px solid green ;
+    padding: 30px 10px;
+    
+
+}
+
+.servise-text {
+    width:800px;
+    padding-left:100px;
+}
+
+.servise-text p {
+    padding-top:20px;
+}
+.servise-text h2{
+    padding-top:20px;
+   padding-right:600px;
+    position:relative;
+
+}
+
+.servise-text h2::after {
+    position:absolute;
+    content:'';
+    top:35px;
+    left:0;
+    width:50px;
+    height:2px;
+    background-color:tomato;
+    
+}
+
+/*===========Servise Part end here===================*/
+
+/*===========team Part start here===================*/
+
+#team {
+        text-align:center;
+        padding: 50px 50px;
+    }
+    .team-item {
+        display:flex;
+        justify-content:space-between;
+        padding-top:100px;
+    }
+
+
+    .team-1{
+        width:350px;
+    
+    }
+   
+
+    .team-2{
+        width:350px;
+     
+    }
+    .team-3{
+        width:350px;
+    
+    }
+   
+/*===========team Part end here===================*/
+
+
+/*===========work Part start here===================*/
+#work {
+    
+}
+.head-2 {
+    text-align:center;
+   
+}
+
+.work-mein {
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:center;
+    padding-top:100px;
+}
+.work-img1 {
+    width:300px;
+}
+.work-img2 {
+    width:300px;
+}
+.work-img3 {
+    width:300px;
+}
+.work-img4 {
+    width:300px;
+}
+
+/*===========work Part end here===================*/
+
+/*===========footer Part stert here===================*/
+.footer-king {
+    display:flex;
+}
+#footer {
+ 
+    padding-top:100px;
+    
+}
+ .footer-1 {
+   
+     width:400px;
+     padding-left:150px;
+     padding-right:30px;
+ }
+
+ .footer-1 img{
+     background-color:deeppink;
+  
+    
+ }
+ .footer-1 p{
+   padding:30px 0;
+  
+    
+ }
+ .footer-1 h4{
+   padding-bottom:20px;
+  
+    
+ }
+ .icon-footer {
+     display:flex;
+     flex-direction:row;
+ }
+ .footer-text {
+     font-size:20px;
+ }
+.icon-footer-1 {
+    padding-left:10px;
+}
+
+.form-item {
+  
+}
+
+.from-mein {
+   
+    display:flex;
+}
+
+.form-item-1{
+    background-color:mediumturquoise;
+    float:left;
+    padding-left:10px;
+    color:#fff;
+}
+
+.footer-para {
+    display:flex;
+}
+ .footer-2 {
+     width:400px;
+    padding-right:100px;
+ }
+
+ .footer-img img {
+    padding-top:35px;
+ }
+.footer-text2 {
+    padding-top:35px;
+    padding-left:20px;
+}
+ .footer-3 {
+     width:300px;
+ }
+.head3 {
+    padding-bottom:35px;
+}
+.copy-wright {
+    padding-top:50px;
+    text-align:center;
+}
+
+
+
+/*===========footer Part end here===================*/
+
+
+ 
